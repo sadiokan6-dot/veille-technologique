@@ -1,0 +1,159 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+h2 {
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #000000; 
+    color: #00d2ff;           
+    margin: 0;         
+    font-family: 'Segoe UI';
+	max-width: 2000px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid ;
+}
+
+.icon-sociaux {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.hero-banner {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ImageIndex.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #00d2ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    text-align: center;
+}
+
+.menu-navigation {
+    padding: 10px;             
+    text-align: center;        
+}
+
+.menu-navigation a {
+    color: #a9a9a9;            
+    margin: 15px;            
+}
+
+.zone-explication {
+    background-color: #000000;
+    padding: 40px 20px;
+}
+.italique {
+	font-style:italic;
+}
+.hneutral {
+	 width: 500px;
+    height: 500px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}	
+
+.conteneur-modele {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.texte-modele {
+    flex: 1;
+}
+
+.passifs {
+    width: 250px;
+    height: 250px;
+}
+
+.actifs {
+    width: 250px;
+    height: 250px;
+}
+
+.textiles {
+    width: 250px;
+    height: 250px;
+}
+
+.h-medi, .h-flex, .h-fit {
+    width: 350px;
+    height: auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #242936;
+}
+
+td {
+    border: 1px solid #4f5b73;
+    padding: 12px;
+    text-align: center;
+}
+
+caption h4 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.Critère, .Usage {
+    text-align: left;
+    font-weight: bold;
+}
+.fiche-veille {
+	text-align: center;
+	padding: 20px;
+}
+.bouton-suivant {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imag {
+	width: 350px;
+    height: 350px;
+}
+.explication {
+	max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid;
+	color :#00d2ff;
+}
+.conclusion {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #00d2ff;
+}
+
+.conclusion h2 {
+    color: #00d2ff;
+    margin-bottom: 15px;
+}
+
+.conclusion p {
+    margin-bottom: 15px;
+    line-height: 1.5; 
+}
